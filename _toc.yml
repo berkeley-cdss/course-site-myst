@@ -1,0 +1,6 @@
+format: jb-book
+root: index
+chapters:
+- file: syllabus
+- file: calendar
+- file: unit1

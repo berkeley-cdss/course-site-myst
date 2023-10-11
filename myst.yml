@@ -1,0 +1,22 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  title: "Stat 999"
+  description: "Test Class Website Based On Myst"
+  keywords: []
+  authors: ["Not Fernando Perez"]
+  github: https://github.com/berkeley-scf/stat999-myst
+  # bibliography: []
+  thebe:
+    lite: true
+site:
+  template: book-theme
+  # title:
+  # logo:
+  nav: []
+  actions:
+    - title: Ed
+      url: https://edstem.org
+    - title: DataHub
+      url: https://datahub.berkeley.edu
+  domains: []
