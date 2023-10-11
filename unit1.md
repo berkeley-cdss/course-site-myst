@@ -1,9 +1,8 @@
 ---
 title: "Unit 1: Intro"
-#format:
-#  html:
-#    include-in-header:
-#     - file: macros.md
+math:
+  '\trans': '^\mathsf{T}'
+  '\eps': '\epsilon'
 ---
 
 :::{tip}
@@ -23,3 +22,6 @@ $$
 
 Use a $\LaTeX$ macro.
 
+$$
+A = X \trans Y
+$$
