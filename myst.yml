@@ -9,10 +9,11 @@ project:
   # bibliography: []
   thebe:
     lite: true
+
 site:
   template: book-theme
-  # title:
-  # logo:
+  title: "Stat 999"
+  logo: "panda-logo.png"
   nav: []
   actions:
     - title: Ed
