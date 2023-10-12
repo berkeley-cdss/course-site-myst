@@ -64,7 +64,7 @@ Reader
 ::::
 
 
-:::{attention} Welcome to Week 8 of Data 100!
+:::{attention} Welcome to [Week 2](#week2) of Data 100!
 :class: dropdown
 :icon: false
 👋
@@ -73,16 +73,20 @@ Reader
 
 # Schedule
 
-We'd like to be able to define custom html classes for the callouts below (presumably in CSS style file). Currently only `simple` is permitted.
+MyST doesn't give you the ability to have freestyle HTML with colors and styles.
 
-```{list-table} Schedule
-:header-rows: 1
-:name: table-schedule
-:class: myschedule
+<div><p style="color: blue;">For example, this text should be blue, but it isn't.</p></div>
 
-* - Date
-  - Materials
-* - **Week 1**
+Instead we leverage the callout widgets to approximate highlighted links. We'd like to be able to define custom html classes for the callouts below (presumably in CSS style file). Currently only `simple` is permitted.
+
+(week1)=
+```{card}
+:header: Week 1
+
+```{list-table}
+:header-rows: 0
+:name: table-week1
+
 * - Aug 24
   - :::{note} {sc}`Lecture`
     :class: simple
@@ -115,8 +119,17 @@ We'd like to be able to define custom html classes for the callouts below (presu
     :icon: false
     [Prerequisite Math](https://drive.google.com/file/d/1PS69ERS6TNJ5lRq0gJF5Bd_VTz7xYgp-/view?usp=sharing) (due Aug 31)
     :::
+```
 
-* - **Week 2**
+
+(week2)=
+```{card}
+:header: Week 2
+
+```{list-table}
+:header-rows: 0
+:name: table-week2
+
 * - Aug 29
   - :::{note} {sc}`Lecture 2`
     :class: simple
