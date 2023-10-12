@@ -10,12 +10,8 @@ authors:
     email: fsapienza@berkeley.edu
 ---
 
-:::{tip}
-[DS100/fa23](https://github.com/DS-100/fa23) has a div with templating for the instructors, but templating in jupyter-book does not work as described.  See https://github.com/executablebooks/jupyter-book/issues/2067
-:::
-
 <!--div class="staffer">
-  <img class="staffer-image" src="{{ staff_photo }}" height=80 width=80 alt="{{ staff_name }}">
+  <img class="staffer-image" src="{{ staff_photo }}" height=50 width=50 alt="{{ staff_name }}">
   <div>
     <h3 class="staffer-name">
       <a href="{{ staff_website }}" target="_blank">{{ staff_name }}</a>
@@ -28,11 +24,11 @@ authors:
 
 ::::{grid} 1 2 3 3
 
-:::{card} Fernando Perez
+:::{card}
+:header: Fernando Perez
 Instructor
-^^^^^^^^^^
 <div class="staffer">
-  <img class="staffer-image" src="http://ds100.org/fa23/resources/assets/staff_pics/Fernando_Perez.jpeg" height=80 width=80 alt="Fernando Perez">
+  <img class="staffer-image" src="images/fernando.jpg" alt="Fernando Perez">
   <div>
       <p class="staffer-pronouns"><b>He/Him/His</b></p>
       <p><a href="mailto:fernando.perez@berkeley.edu">fernando.perez@berkeley.edu</a></p>
@@ -41,11 +37,11 @@ Instructor
 </div>
 :::
 
-:::{card} Facundo Sapienza
+:::{card}
+:header: Facundo Sapienza
 Teaching Assistant
-^^^^^^^^^^
 <div class="staffer">
-  <img class="staffer-image" src="https://statistics.berkeley.edu/sites/default/files/styles/crop_person/public/students/img_2294-2.jpg?h=5bf2726a&itok=z3WesdNx" height=80 width=80 alt="Facundo Sapienza">
+  <img class="staffer-image" src="images/facu2.jpg" alt="Facundo Sapienza">
   <div>
       <p class="staffer-pronouns"><b>He/Him/His</b></p>
       <p><a href="mailto:fsapienza@berkeley.edu">fsapienza@berkeley.edu</a></p>
@@ -54,9 +50,9 @@ Teaching Assistant
 </div>
 :::
 
-:::{card} Isaac Sloan
+:::{card}
+:header: Isaac Sloan
 Reader
-^^^^^^
 <div class="staffer">
   <div>
       <p class="staffer-pronouns"><b>He/Him/His</b></p>
