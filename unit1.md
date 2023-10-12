@@ -22,7 +22,8 @@ This is the mean of some random numbers using numpy.
 
 ```{code-cell} ipython3
 import numpy as np
-np.mean(np.random.normal(size=100))
+mean = np.mean(np.random.normal(size=100))
+print(f"{mean=}")
 ```
 
 $$
