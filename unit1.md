@@ -14,8 +14,8 @@ math:
   '\eps': '\epsilon'
 ---
 
-:::{tip}
-This content can be styled via the border class.
+:::{warning}
+Code cells are not actually executed when the page is built.
 :::
 
 This is the mean of some random numbers using numpy.

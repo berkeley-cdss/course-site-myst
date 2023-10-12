@@ -8,7 +8,8 @@ project:
   github: https://github.com/berkeley-scf/stat999-myst
   # bibliography: []
   thebe:
-    lite: true
+    #lite: true
+    server: true
 
 site:
   template: book-theme
