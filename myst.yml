@@ -26,4 +26,5 @@ site:
       url: https://edstem.org
     - title: DataHub
       url: https://datahub.berkeley.edu
-  domains: []
+  domains:
+    - berkeley-scf.github.io
