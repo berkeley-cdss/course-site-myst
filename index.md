@@ -68,9 +68,7 @@ Reader
 ::::
 
 
-:::{admonition} Welcome
-:class: tip
-:name: welcome
+:::{note} Welcome
 Welcome to Week 8 of Data 100!
 :::
 
