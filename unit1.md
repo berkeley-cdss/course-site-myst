@@ -15,12 +15,12 @@ math:
 ---
 
 :::{warning}
-Code cells are not actually executed when the page is built.
+Code cells are not yet actually executed when the page is built.
 :::
 
 This is the mean of some random numbers using numpy.
 
-```{code-cell} ipython3
+```{code-cell} python3
 import numpy as np
 mean = np.mean(np.random.normal(size=100))
 print(f"{mean=}")

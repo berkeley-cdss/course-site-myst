@@ -8,8 +8,13 @@ project:
   github: https://github.com/berkeley-scf/stat999-myst
   # bibliography: []
   thebe:
-    #lite: true
-    server: true
+    lite: true
+    #local:
+    #  url: http://localhost:8888
+    #  token: test-secret
+    #server: true
+    #  url: http://localhost:8888
+    #  token: test-secret
 
 site:
   template: book-theme
