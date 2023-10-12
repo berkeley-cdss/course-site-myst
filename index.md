@@ -67,7 +67,7 @@ Reader
 :::{attention} Welcome to Week 8 of Data 100!
 :class: dropdown
 :icon: false
-.
+👋
 :::
 
 
