@@ -1,13 +1,6 @@
 ---
 title: "Stat 999: Principles and Techniques of Data Science"
 subtitle: "UC Berkeley, Spring 2024"
-authors:
-  - name: Fernando Perez
-    affiliations: ["Instructor"]
-    email: fernando.perez@berkeley.edu
-  - name: Facu Sapienza
-    affiliations: ["GSI"]
-    email: fsapienza@berkeley.edu
 ---
 
 <!--div class="staffer">
