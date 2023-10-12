@@ -15,47 +15,33 @@ subtitle: "UC Berkeley, Spring 2024"
   </div>
 </div-->
 
-::::{grid} 1 2 3 3
+::::{grid} 1 2 2 2
 
 :::{card}
-:header: Fernando Perez
-Instructor
-<div class="staffer">
-  <img class="staffer-image" src="images/fernando.jpg" alt="Fernando Perez">
-  <div>
-      <p class="staffer-pronouns"><b>He/Him/His</b></p>
-      <p><a href="mailto:fernando.perez@berkeley.edu">fernando.perez@berkeley.edu</a></p>
-      <p><b>Office Hours:</b> Tue 11-12pm (Evans 419)</p>
-  </div>
-</div>
+:header: **Ferando Pérez**
+:footer: **Office Hours**: Tue 11-12pm (Evans 419)
+
+```{list-table}
+:header-rows: 0
+:name: fernando
+* - <img src="images/fernando.jpg" alt="Fernando Perez">
+  - <p class="staffer-pronouns"><b>He/Him/His</b></p><p><a href="mailto:fernando.perez@berkeley.edu">fernando.perez@berkeley.edu</a></p><p>
+```
 :::
 
 :::{card}
-:header: Facundo Sapienza
-Teaching Assistant
-<div class="staffer">
-  <img class="staffer-image" src="images/facu2.jpg" alt="Facundo Sapienza">
-  <div>
-      <p class="staffer-pronouns"><b>He/Him/His</b></p>
-      <p><a href="mailto:fsapienza@berkeley.edu">fsapienza@berkeley.edu</a></p>
-      <p><b>Office Hours:</b> MW 2-3pm (Evans 337)</p>
-  </div>
-</div>
-:::
+:header: **Narges Norouzi**
+:footer: **Office Hours**: MW 2-3pm (Evans 337)
 
-:::{card}
-:header: Isaac Sloan
-Reader
-<div class="staffer">
-  <div>
-      <p class="staffer-pronouns"><b>He/Him/His</b></p>
-      <p><b>Office Hours:</b> MW 2-3pm (Evans 337)</p>
-  </div>
-</div>
+```{list-table}
+:header-rows: 0
+:name: narges
+* - <img src="images/narges.jpg" alt="Narges Norouzi">
+  - <p class="staffer-pronouns"><b>She/Her/Hers</b></p> <p><a href="mailto:norouzi@berkeley.edu">norouzi@berkeley.edu</a></p>
+```
 :::
 
 ::::
-
 
 :::{attention} Welcome to [Week 2](#week2) of Data 100!
 :class: dropdown
