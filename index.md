@@ -59,7 +59,7 @@ MyST doesn't give you the ability to have freestyle HTML with colors and styles.
 Instead we leverage the callout widgets to approximate highlighted links. We'd like to be able to define custom html classes for the callouts below (presumably in CSS style file). Currently only `simple` is permitted.
 
 (week1)=
-```{card} Week 1
+:::{card} Week 1
 ```{list-table}
 :header-rows: 0
 :name: table-week1
@@ -97,9 +97,10 @@ Instead we leverage the callout widgets to approximate highlighted links. We'd l
     [Prerequisite Math](https://drive.google.com/file/d/1PS69ERS6TNJ5lRq0gJF5Bd_VTz7xYgp-/view?usp=sharing) (due Aug 31)
     :::
 ```
+:::
 
 (week2)=
-```{card}
+:::{card}
 :header: Week 2
 With the `simple` class removed, and a different card header mechanism.
 ```{list-table}
@@ -138,3 +139,4 @@ With the `simple` class removed, and a different card header mechanism.
     [Food Safety Math](https://drive.google.com/file/d/1PS69ERS6TNJ5lRq0gJF5Bd_VTz7xYgp-/view?usp=sharing) (due Sep 7)
     :::
 ```
+:::
