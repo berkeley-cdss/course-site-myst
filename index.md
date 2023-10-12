@@ -71,14 +71,39 @@ Welcome to Week 8 of Data 100!
 
 # Schedule
 
-Note: DS100 uses templating to fill out the schedule.
-
 We'd like to be able to define custom html classes for the buttons below (presumably in CSS style file)
 
-Week 1
+<p style="color: blue;">this is not in blue</span>
 
-|         |      |      |
-| :------ | ---- | ---: |
-| Aug 24  | <button type="button" class="btn btn-secondary btn-small" style="background-color:purple">Lecture 1</button> [Introduction](link)    | Note 1, Note 2, Recording    |
-|         | <button type="button" class="btn btn-secondary btn-small" style="background-color:green">Lecture Participation 1</button> [Lecture Participation 1](link2) | |
-| Aug 25  | Lab 1 Prereq coding |     |
+```{list-table} Schedule
+:header-rows: 1
+:name: table-schedule
+
+* - Date
+  - Materials
+* - **Week 1**
+* - Aug 24
+  - {sc}`Lecture 1`: [Introduction](lecture/lec01)
+* - 
+  - {sc}`Lecture Participation 1`: [Lecture Participation 1](https://app.sli.do/event/w7jeDVDxMNKRaS86U4g3rQ/embed/polls/00ef9633-394c-4b61-9061-4bc4a301ed06)
+* - 
+  - {sc}`Notes`: [Note 1](course-notes/intro_lec/introduction)
+* - Aug 25
+  - {sc}`Lab 1` [Prereq coding](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Ffa23-student&urlpath=lab%2Ftree%2Ffa23-student%2F%2Flab%2Flab01%2Flab01.ipynb&branch=main) (due Aug 29)
+* - 
+  - {sc}`Homework 1A` [Plotting and Permutation Test](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Ffa23-student&urlpath=lab%2Ftree%2Ffa23-student%2F%2Fhw%2Fhw01%2Fhw01.ipynb&branch=main) (due Aug 31)
+* -
+  - {sc}`Homework 1B` [Prerequisite Math](https://drive.google.com/file/d/1PS69ERS6TNJ5lRq0gJF5Bd_VTz7xYgp-/view?usp=sharing) (due Aug 31)
+
+* - **Week 2**
+* - Aug 29
+  - {sc}`Lecture 2`: [Pandas I](lecture/lec02)
+* - 
+  - {sc}`Lecture Participation 2`: [Lecture Participation 2](https://app.sli.do/event/w7jeDVDxMNKRaS86U4g3rQ/embed/polls/00ef9633-394c-4b61-9061-4bc4a301ed06)
+* - 
+  - {sc}`Discussion 1`: [Prerequisites](https://drive.google.com/file/d/1527BuJQNH9n3FjQBwsCgR55mwfn_FZfq/view?usp=sharing)
+* - Aug 31
+  - <button type="button" class="btn btn-secondary btn-small" style="background-color:green">Lecture Participation 1</button> [Lecture Participation 1](link2)
+* - Sep 1
+  - {sc}`Lab 1` Prereq coding
+```
