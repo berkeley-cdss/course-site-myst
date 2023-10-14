@@ -24,8 +24,8 @@ subtitle: "UC Berkeley, Spring 2024"
 ```{list-table}
 :header-rows: 0
 :name: fernando
-* - <img src="images/fernando.jpg" alt="Fernando Perez">
-  - <p class="staffer-pronouns"><b>He/Him/His</b></p><p><a href="mailto:fernando.perez@berkeley.edu">fernando.perez@berkeley.edu</a></p><p>
+* - ![Fernando Perez](images/fernando.jpg)
+  - <p><b>He/Him/His</b></p><p><a href="mailto:fernando.perez@berkeley.edu">fernando.perez@berkeley.edu</a></p><p>
 ```
 :::
 
@@ -36,8 +36,8 @@ subtitle: "UC Berkeley, Spring 2024"
 ```{list-table}
 :header-rows: 0
 :name: narges
-* - <img src="images/narges.jpg" alt="Narges Norouzi">
-  - <p class="staffer-pronouns"><b>She/Her/Hers</b></p> <p><a href="mailto:norouzi@berkeley.edu">norouzi@berkeley.edu</a></p>
+* - ![narges Norouzi](images/narges.jpg)
+  - <p><b>She/Her/Hers</b></p> <p><a href="mailto:norouzi@berkeley.edu">norouzi@berkeley.edu</a></p>
 ```
 :::
 
