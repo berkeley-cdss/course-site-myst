@@ -34,18 +34,7 @@ Current problems/questions:
   - What format should we use for class repo names for individual semesters, e.g., stat555-sp24, stat555-spring-2024, etc..
   - What github.com or github.b.e account should instructors use? Perhaps github.com/berkeley-stat or github.b.e/berkeley-stat or github.b.e/statistics
 
-1. Prerequisites:
-   - Python. We recommend you install python via a Conda distribution, such as [Miniforge](https://github.com/conda-forge/miniforge) or [Anaconda](https://www.anaconda.com/download#downloads).
-   - Git. You can install this from Conda as well, but using your system's built-in `git` is fine.
-
-2. [Install MyST](https://mystmd.org/guide/quickstart) into a new python environment:
-   ```bash
-   mamba create -n mystbook python=3.11
-   source activate mystbook
-   pip install mystmd
-   ```
-
-3. Fork this `stat999-myst` repository template:
+1. Fork this `stat999-myst` repository template:
    a. Visit https://github.com/berkeley-scf/stat999-myst.
    b. Above the file list click **Use this template** and then **Create a new repository**. This will then bring you to a screen where you'll configure your new repository.
    c. Do not enable the **Include all branches*** checkbox.
@@ -53,12 +42,23 @@ Current problems/questions:
    e. You might choose the default of having your repository be public or choose that it be private while you are setting things up. Or you might choose for it always to be private.
    f. Click on **Create Repository**.
 
-4. Clone your newly created repository into a local working directory on your computer. For the purposes of these instructions, we'll pretend your repository is at https://github.com/example/stat555-myst.
+2. Clone your newly created repository into a local working directory on your computer. For the purposes of these instructions, we'll pretend your repository is at https://github.com/example/stat555-myst.
    - You can do this from the terminal/commandline or within a Git graphical application (e.g., `GitHub Desktop`).
    - From the terminal it would look like this:
      ```bash
      git clone https://github.com/example/stat555
+     cd stat555
      ```
+
+3. This workflow needs some command-line programs such as `nodejs` and [myst](https://mystmd.org/guide/quickstart). We recommend you install a Conda distribution, such as [Miniforge](https://github.com/conda-forge/miniforge) or [Anaconda](https://www.anaconda.com/download#downloads). We have provided an `environment.yml` file so that you can run the commands below to install all dependencies and activate the environment. This keeps things separate from any other projects you're working on:
+     ```bash
+     # you can replace `mamba` with `conda`
+     mamba env create -f environment.yml
+     mamba activate stat-myst-site
+     ```
+
+   Whenever you need to start up a new terminal to work on your website, first activate the the environment that contains the necessary programs with `mamba activate stat-myst-site`. Otherwise your terminal may report that it cannot find `myst` or its dependencies.
+
 
 4. Begin making changes relevant to your course.
    - Modify the site's metadata in `myst.yml`. Notable fields include the course title, description, author, and github URL. You can also edit links to external resources for your course, such as bCourses and Ed.

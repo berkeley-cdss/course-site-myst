@@ -1,0 +1,11 @@
+name: stat-myst-site
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python==3.11.*
+  - nodejs>16.0
+  - libwebp==1.3.2
+  - pip:
+    - mystmd
