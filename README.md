@@ -68,29 +68,17 @@ Current problems/questions:
    - Update `schedule.yml` to reflect the material you want displayed in the main page.
    - You can make use of various MyST features discussed in the [MyST Guide](https://mystmd.org/guide).
 
-5. Run `myst init` in the working directory. When prompted, let the command run `myst start` for you to generate a preview. `myst` will display a localhost URL where the site preview is running, such as http://localhost:3000. Open this URL in your browser.
+5. Run `myst init` in the working directory to initialize your working directory. When prompted, let the command run `myst start` for you to generate a preview. `myst` will display a localhost URL where the site preview is running, such as http://localhost:3000. Open this URL in your browser.
 
-   {% note %}
-
-   **Note:** When `myst` detects problems in the makdown that prevent the website from rendering correctly, it will print the file and line number containing the issue. If this happens, fix the file and rerun `myst init`.
-
-   {% endnote %}
-
-   {% note %}
+   **Note:** When `myst` detects problems in the markdown that prevent the website from rendering correctly, it will print the file and line number containing the issue. If this happens, fix the file and rerun `myst init`.
 
    **Note:** If you are on a Mac, `myst` may prompt you to allow `node` to accept incoming network connection. Allow this to enable website previewing to work.
-
-   {% endnote %}
 
    You can leave `myst` running as you make changes to the source files; saving changes to the source files will generally will be reflected live in your browser, though you may sometimes need to navigate away and back or reload the page.
 
    You can also run `myst build` to create the static HTML (in the `_build` directory) without automatically displaying it.
 
-   {% note %}
-
    **Note:** Do not commit the files in `_build` to your repository as they will be frequently regenerated and having them in the repository can complicate matters.
-
-   {% endnote %}
 
 6. Update your repository with the changes to your source files. First tell git about all files that should be in your repo.
 
