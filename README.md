@@ -1,31 +1,24 @@
 # stat999-myst
 
-A MyST-based template for class website.
+This repository contains a MyST-based template for class website. You can see a preview of it at [https://berkeley-scf.github.io/stat999-myst](https://berkeley-scf.github.io/stat999-myst). This template is intended to be forked and altered for other courses.
 
-The site is rendered at [https://berkeley-scf.github.io/stat999-myst](https://berkeley-scf.github.io/stat999-myst).
-
-## What you can do with this MyST-based class website and repository
+## MyST Template Capabilities
 
 - Create a website by modifying content in a GitHub repository.
-- Create a dynamic schedule that renders plain text content.
-- Create documents using Markdown files or Jupyter notebooks (ipynb).
-   - Include LaTeX (including LaTeX macros) for mathematical notation.
-   - Include external webpages (such as Google calendars) as iframes within a page.
-   - Render documents as HTML or PDF (the latter for documents that students will download).
-- MyST features include:
-   - Various nice features such as callouts, tabsets, table of contents, etc.
-   - The ability to embed raw HTML.
+- Create documents from markdown files or Jupyter notebooks.
+- Include LaTeX and LaTeX macros for mathematical notation.
+- Embed external webpages (such as Google calendars) as iframes within a page.
+- Render documents as HTML or PDF (the latter for documents that students will download).
+- MyST Markdown includes various nice features such as automatic navigation links, callouts, tables, images, code blocks, diagrams, etc.
 
 
-## How to use this GitHub template
+## Terminology
 
-### Terminology
-
-- "Rendering" a document or a site involves converting the *source* Markdown or notebook files to html.
+- "Rendering" a document or a site involves converting the *source* markdown or notebook files to html.
 - "Previewing" a site involves rendering the site and displaying it locally on your computer (i.e., at `localhost:<port>` in a web browser.
 - "Publishing" a site involves pushing the rendered site to the `gh-pages` branch of the GitHub repository so it can be viewed at the public URL.
 
-### Instructions [UNDER CONSTRUCTION]
+## Instructions [UNDER CONSTRUCTION]
 
 These instructions have been tested under macOS.
 
@@ -64,7 +57,7 @@ Current problems/questions:
    - Modify the site's metadata in `myst.yml`. Notable fields include the course title, description, author, and github URL. You can also edit links to external resources for your course, such as bCourses and Ed.
    - Modify the table of contents in `_toc.yml` to reflect the structure you want.
    - Update `README.md` to remove all the instructions we provide (i.e., this text you are reading!).
-   - Edit the other Markdown files in the working directory and add new markdown or notebook files as desired.
+   - Edit the other markdown files in the working directory and add new markdown or notebook files as desired.
    - Update `schedule.yml` to reflect the material you want displayed in the main page.
    - You can make use of various MyST features discussed in the [MyST Guide](https://mystmd.org/guide).
 
