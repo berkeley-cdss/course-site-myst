@@ -19,7 +19,7 @@ project:
 site:
   template: book-theme
   title: "Stat 999"
-  logo: "panda-logo.png"
+  logo: "stat_bear.png"
   nav: []
   actions:
     - title: Ed
