@@ -58,7 +58,7 @@ Current problems/questions:
    - Modify the table of contents in `_toc.yml` to reflect the structure you want.
    - Update `README.md` to remove all the instructions we provide (i.e., this text you are reading!).
    - Edit the other markdown files in the working directory and add new markdown or notebook files as desired.
-   - Update `schedule.yml` to reflect the material you want displayed in the main page.
+   - Update `index.md` to reflect the material you want displayed in the main page.
    - You can make use of various MyST features discussed in the [MyST Guide](https://mystmd.org/guide).
 
 5. Run `myst init` in the working directory to initialize your working directory. When prompted, let the command run `myst start` for you to generate a preview. `myst` will display a localhost URL where the site preview is running, such as http://localhost:3000. Open this URL in your browser.
