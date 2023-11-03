@@ -28,9 +28,10 @@ Current problems/questions:
   - What github.com or github.b.e account should instructors use? Perhaps github.com/berkeley-stat or github.b.e/berkeley-stat or github.b.e/statistics
 
 1. Fork this `stat999-myst` repository template:
+
    a. Visit https://github.com/berkeley-scf/stat999-myst.
    b. Above the file list click **Use this template** and then **Create a new repository**. This will then bring you to a screen where you'll configure your new repository.
-   c. Do not enable the **Include all branches*** checkbox.
+   c. Do not enable the **Include all branches** checkbox.
    d. Choose your repository name to follow the pattern, `stat-NUMBER-TERM`, e.g.`stat-555-fa23` [TBD]
    e. You might choose the default of having your repository be public or choose that it be private while you are setting things up. Or you might choose for it always to be private.
    f. Click on **Create Repository**.
@@ -45,9 +46,18 @@ Current problems/questions:
 
 3. This workflow needs some command-line programs such as `nodejs` and [myst](https://mystmd.org/guide/quickstart). We recommend you install a Conda distribution, such as [Miniforge](https://github.com/conda-forge/miniforge) or [Anaconda](https://www.anaconda.com/download#downloads). We have provided an `environment.yml` file so that you can run the commands below to install all dependencies and activate the environment. This keeps things separate from any other projects you're working on:
      ```bash
-     # you can replace `mamba` with `conda`
+     # You can replace `mamba` with `conda`.
      mamba env create -f environment.yml
+     
+     # Now you can activate the environment.
+     # You can use `mamba activate` or `conda activate`,
+     # but these require that you have run `mamba init` or `conda init`,
+     # which modifies your shell.
      mamba activate stat-myst-site
+     
+     # Alternative you can activate like this, without
+     # having do the `init` step mentioned above.
+     source activate stat-myst-site
      ```
 
    Whenever you need to start up a new terminal to work on your website, first activate the the environment that contains the necessary programs with `mamba activate stat-myst-site`. Otherwise your terminal may report that it cannot find `myst` or its dependencies.
@@ -93,9 +103,9 @@ Current problems/questions:
    ```bash
    myst init --gh-pages
    ```
-Follow the directions as prompted.
+   Follow the directions as prompted.
 
-8. As you make changes to your pages and push to Github, it will rebuild your site. You can observe this build process at github by clicking on the Actions but ton at the top of your repository. It usually takes a couple of minutes for this to complete. If there are no problems, your website will be publicly available at https://{your_github_id}.github.io/{your_github_repo}. For example if your repository is at https://github.com/example/stat555, your website will be at https://example.github.io/stat555/.
+8. As you make changes to your pages and push to GitHub, it will rebuild your site. You can observe this build process at github by clicking on the Actions button at the top of your repository. It usually takes a couple of minutes for this to complete. If there are no problems, your website will be publicly available at https://{your_github_id}.github.io/{your_github_repo}. For example if your repository is at https://github.com/example/stat555, your website will be at https://example.github.io/stat555/.
 
 9. We will work with you to give your website a friendly URL in a department-standardized format, such as https://stat555.berkeley.edu. Just let us know when your website is ready.
 
