@@ -15,7 +15,7 @@ math:
 ---
 
 :::{warning}
-Code cells are not yet actually executed when the page is built.
+Code cells in Markdown documents are not yet actually executed when the page is built. It's possible that this MyST feature is still being implemented or buggy.
 :::
 
 This is the mean of some random numbers using numpy.
