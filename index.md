@@ -1,6 +1,6 @@
 ---
-title: "Stat 999: Principles and Techniques of Data Science"
-subtitle: "UC Berkeley, Spring 2024"
+title: 'Stat 999: Principles and Techniques of Data Science'
+subtitle: 'UC Berkeley, Spring 2024'
 ---
 
 <!--div class="staffer">
@@ -27,6 +27,7 @@ subtitle: "UC Berkeley, Spring 2024"
 * - ![Fernando Perez](images/fernando.jpg)
   - <p><b>He/Him/His</b></p><p><a href="mailto:fernando.perez@berkeley.edu">fernando.perez@berkeley.edu</a></p><p>
 ```
+
 :::
 
 :::{card}
@@ -39,6 +40,7 @@ subtitle: "UC Berkeley, Spring 2024"
 * - ![narges Norouzi](images/narges.jpg)
   - <p><b>She/Her/Hers</b></p> <p><a href="mailto:norouzi@berkeley.edu">norouzi@berkeley.edu</a></p>
 ```
+
 :::
 
 ::::
@@ -49,7 +51,6 @@ subtitle: "UC Berkeley, Spring 2024"
 👋
 :::
 
-
 # Schedule
 
 MyST doesn't give you the ability to have freestyle HTML with colors and styles.
@@ -58,8 +59,14 @@ MyST doesn't give you the ability to have freestyle HTML with colors and styles.
 
 Instead we leverage the callout widgets to approximate highlighted links. We'd like to be able to define custom html classes for the callouts below (presumably in CSS style file). Currently only `simple` is permitted.
 
+## Load schedule please!! 📅
+
+:::{schedule}
+:::
+
 (week1)=
 :::{card} Week 1
+
 ```{list-table}
 :header-rows: 0
 :name: table-week1
@@ -97,12 +104,14 @@ Instead we leverage the callout widgets to approximate highlighted links. We'd l
     [Prerequisite Math](https://drive.google.com/file/d/1PS69ERS6TNJ5lRq0gJF5Bd_VTz7xYgp-/view?usp=sharing) (due Aug 31)
     :::
 ```
+
 :::
 
 (week2)=
 :::{card}
 :header: Week 2
 With the `simple` class removed, and a different card header mechanism.
+
 ```{list-table}
 :header-rows: 0
 :name: table-week2
@@ -139,4 +148,5 @@ With the `simple` class removed, and a different card header mechanism.
     [Food Safety Math](https://drive.google.com/file/d/1PS69ERS6TNJ5lRq0gJF5Bd_VTz7xYgp-/view?usp=sharing) (due Sep 7)
     :::
 ```
+
 :::
