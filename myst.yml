@@ -1,10 +1,10 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
-  title: "Stat 999"
-  description: "Test Class Website Based On Myst"
+  title: 'Stat 999'
+  description: 'Test Class Website Based On Myst'
   keywords: []
-  authors: ["Not Fernando Perez"]
+  authors: ['Not Fernando Perez']
   github: https://github.com/berkeley-scf/stat999-myst
   # bibliography: []
   thebe:
@@ -15,11 +15,12 @@ project:
     #server: true
     #  url: http://localhost:8888
     #  token: test-secret
-
+  plugins:
+    - schedule.mjs
 site:
   template: book-theme
-  title: "Stat 999"
-  logo: "stat_bear.png"
+  title: 'Stat 999'
+  logo: 'stat_bear.png'
   nav: []
   actions:
     - title: Ed

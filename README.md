@@ -9,7 +9,8 @@ This repository contains a MyST-based template for class website. You can see a 
 - Include LaTeX and LaTeX macros for mathematical notation.
 - Embed external webpages (such as Google calendars) as iframes within a page.
 - Render documents as HTML or PDF (the latter for documents that students will download).
-- MyST Markdown includes various nice features such as automatic navigation links, callouts, tables, images, code blocks, diagrams, etc.
+- Render a schedule from a YAML file.
+- MyST Markdown includes various nice features such as automatic navigation links, callouts, tables, images, code blocks, diagrams, etc. It also has a plugin system which enables you to create custom features.
 
 
 ## Terminology
