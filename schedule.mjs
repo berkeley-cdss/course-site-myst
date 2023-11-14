@@ -22,17 +22,36 @@ function tableRow(cells) {
 
 // We don't have custom css quite yet  :(
 const classes = {
-  lecture: { background: '#4E66F6', borderRadius: 8, color: 'white', padding: 5 },
-  participation: { background: '#7A77B4', borderRadius: 8, color: 'white', padding: 5 },
-  lab: { background: '#B83BC0', borderRadius: 8, color: 'white', padding: 5 },
-  homework: { background: '#D43B21', borderRadius: 8, color: 'white', padding: 5 },
+  lecture: {
+    background: '#4E66F6',
+    borderRadius: 8,
+    color: 'white',
+    padding: 5
+  },
+  participation: {
+    background: '#7A77B4',
+    borderRadius: 8,
+    color: 'white',
+    padding: 5
+  },
+  lab: {
+    background: '#B83BC0',
+    borderRadius: 8,
+    color: 'white',
+    padding: 5
+  },
+  homework: { background: '#D43B21',
+    borderRadius: 8,
+    color: 'white',
+    padding: 5
+  },
 };
 
 const scheduleDirective = {
   name: 'schedule',
   doc: 'Schedule directive presents a schedule based on a YAML file',
-  // The arg should probably be the YAML file you are loading
-  // arg: { type: String },
+  // The YAML file that contains the schedule
+  arg: { type: String },
   options: {
     // size: { type: String },
   },
@@ -40,7 +59,7 @@ const scheduleDirective = {
     // ## Week 1
     // Aug 24 [Lecture 1]     PDF Document        (note)
     //        [Exercise 1.1]  PDF Document
-    const weeks = yaml.load(fs.readFileSync('./schedule.yml').toString());
+    const weeks = yaml.load(fs.readFileSync(data.arg).toString());
     const children = weeks.map(({ week, days }) => {
       const renderedDays = days
         .map((day) => {
