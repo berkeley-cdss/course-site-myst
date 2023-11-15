@@ -46,43 +46,13 @@ Theoretically, the instructor could ask the SCF to fork from the previous term's
 
 The instructor may choose to require that GSIs operate in their own forks, if they wanted more control or to review changes more formally.
 
-## Instructions for Department Staff
-
-1. Create a github organization for the course if one does not already exist. It should be named `berkeley-statNNN` where `NNN` is the course number.
-
-1. If it was necessary to create a new github organization, create a course overview repository and website as well.
-
-   a. Instantiate the template at https://github.com/berkeley-scf/course-overview into the new organization.
-
-   a. Complete the course overview section and make other course-specific adjustments.
-
-   a. Create a .stat subdomain CNAME for statNNN.stat.berkeley.edu for the course in DNS if one does not already exist. See GitHub's [instructions](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#configuring-a-subdomain).
-
-   a. Add the CNAME to https://github.com/berkeley-statNNN/course-overview/settings/pages > Custom domain. This will add a `CNAME` file to the repository.
-
-   a. Request a top-level CNAME for statNNN.berkeley.edu pointing at statNNN.stat.berkeley.edu.
-
-1. Fork this `stat999-myst` repository template:
-
-   a. Visit https://github.com/berkeley-scf/stat999-myst.
-
-   b. Above the file list click **Use this template** and then **Create a new repository**. This will then bring you to a screen where you'll configure the new repository.
-
-   c. Do not enable the **Include all branches** checkbox.
-
-   d. Name the repository after academic term, e.g. `fall-2024` and place it into the per-course organization, e.g. `berkeley-statNNN`.
-
-   e. You might choose the default of having your repository be public or choose that it be private while you are setting things up. Or you might choose for it always to be private.
-
-   f. Click on **Create Repository**.
-
-1. Enable GitHub Pages in the repository. Go to Settings > Pages > Source > GitHub Actions (Beta). Because a github action is contained within the template, it will run when the template is instantiated and may fail until this step is completed.
 
 ## Instructions for Course Staff
 
 These instructions have been tested under macOS.
 
 ### Edit the Content
+
 1. When department staff notify you that the class repository is ready, clone it into a local working directory on your computer. For the purposes of these instructions, we'll pretend your repository is at https://github.com/berkeley-stat555/fall-2024.
    - You can do this from the terminal/commandline or within a Git graphical application (e.g., `GitHub Desktop`).
    - From the terminal it would look like this:
@@ -166,3 +136,37 @@ If you want to preview the website locally on your own computer before they go l
 
 
 The SCF is happy to help. Please [contact us](https://statistics.berkeley.edu/computing/how-get-help) if you are a Berkeley Statistics instructor and you run into problems or questions.
+
+
+## Instructions for Department Staff
+
+1. Create a github organization for the course if one does not already exist. It should be named `berkeley-statNNN` where `NNN` is the course number.
+
+1. If it was necessary to create a new github organization, create a course overview repository and website as well.
+
+   a. Instantiate the template at https://github.com/berkeley-scf/course-overview into the new organization.
+
+   a. Complete the course overview section and make other course-specific adjustments.
+
+   a. Create a .stat subdomain CNAME for statNNN.stat.berkeley.edu for the course in DNS if one does not already exist. See GitHub's [instructions](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#configuring-a-subdomain).
+
+   a. Add the CNAME to https://github.com/berkeley-statNNN/course-overview/settings/pages > Custom domain. This will add a `CNAME` file to the repository.
+
+   a. Request a top-level CNAME for statNNN.berkeley.edu pointing at statNNN.stat.berkeley.edu.
+
+1. Fork this `stat999-myst` repository template:
+
+   a. Visit https://github.com/berkeley-scf/stat999-myst.
+
+   b. Above the file list click **Use this template** and then **Create a new repository**. This will then bring you to a screen where you'll configure the new repository.
+
+   c. Do not enable the **Include all branches** checkbox.
+
+   d. Name the repository after academic term, e.g. `fall-2024` and place it into the per-course organization, e.g. `berkeley-statNNN`.
+
+   e. You might choose the default of having your repository be public or choose that it be private while you are setting things up. Or you might choose for it always to be private.
+
+   f. Click on **Create Repository**.
+
+1. Enable GitHub Pages in the repository. Go to Settings > Pages > Source > GitHub Actions (Beta). Because a github action is contained within the template, it will run when the template is instantiated and may fail until this step is completed.
+
