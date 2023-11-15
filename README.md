@@ -23,7 +23,7 @@ This repository contains a MyST-based template for class website. You can see a 
 
 ## Workflow Overview
 
-The anticipated workflow is that departmental staff will fork this template into a new repo resembling https://github.com/berkeley-stat555/fall-2024. The instructor (and course staff of their choosing) will be given permission to modify that repo. More advanced users may choose to fork that into their own github account and make pull requests into the class repo.
+The anticipated workflow is that departmental staff will fork this template into a new repo resembling https://github.com/berkeley-stat555/spring-2024. The instructor (and course staff of their choosing) will be given permission to modify that repo. More advanced users may choose to fork that into their own GitHub account and make pull requests into the class repo.
 
 For example, given the instructor with github handle `@paciorek`:
 ```mermaid
