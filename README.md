@@ -23,7 +23,7 @@ This repository contains a MyST-based template for class website. You can see a 
 
 ## Workflow Overview
 
-The anticipated workflow is that departmental staff will fork this template into a new repo resembling https://github.com/berkeley-stat555/spring-2024. The instructor (and course staff of their choosing) will be given permission to modify that repo. More advanced users may choose to fork that into their own GitHub account and make pull requests into the class repo.
+The anticipated workflow is that departmental staff will fork this template into a new repo resembling https://github.com/berkeley-stat555/fall-2024. The instructor (and course staff of their choosing) will be given permission to modify that repo. More advanced users may choose to fork that into their own GitHub account and make pull requests into the class repo.
 
 For example, given the instructor with github handle `@paciorek`:
 ```mermaid
@@ -42,7 +42,7 @@ stateDiagram-v2
     repo_dept --> website_dept: Changes are live on website.
 ```
 
-Eventually, instructors will choose to fork from the previous term's repo, e.g. github.com/berkeley-stat555/spring-2024, rather than the template, unless they want to start fresh.
+Eventually, instructors will choose to fork from the previous term's repo, e.g. github.com/berkeley-stat555/fall-2024, rather than the template, unless they want to start fresh.
 
 The instructor may choose to require that GSIs operate in their own forks, if they wanted more control or to review changes more formally.
 
