@@ -7,8 +7,10 @@ project:
   authors: ['Not Fernando Perez']
   github: https://github.com/berkeley-scf/stat999-myst
   # bibliography: []
-  thebe:
+  jupyter:
     lite: true
+  #thebe:
+  #  lite: true
     #local:
     #  url: http://localhost:8888
     #  token: test-secret
