@@ -44,7 +44,7 @@ stateDiagram-v2
 
 ### Fork and Pull Request Workflow
 
-Another method involves course staff forking the class repo into their own GitHub account. They would then make pull requests in the class repo, and following feedback, discussion, alterations, etc., authorized staff could merge the PRs.
+Another method involves course staff forking the class repo into their own GitHub account. They would then make pull requests in the class repo, and following feedback, discussion, alterations, etc., authorized staff could merge the PRs. This gives the instructor or repo admin a bit more control over changes.
 
 For example, given the instructor with github handle `@paciorek` and the shared class repo https://github.com/berkeley-stat555/fall-2024 :
 
@@ -60,13 +60,9 @@ stateDiagram-v2
 
     repo_template --> repo_dept: Departmental staff fork template\nor previous term's repo.
     repo_dept --> repo_i: Contributor forks\nclass repo.
-    repo_i --> repo_dept: Contributor creates a PR which\nis initiates a review.
+    repo_i --> repo_dept: Contributor creates a PR which\ninitiates a review.
     repo_dept --> website_dept: Course repo admin merges,\nand changes go live.
 ```
-
-Eventually, instructors will choose to fork from the previous term's repo, e.g. github.com/berkeley-stat555/fall-2024, rather than this template, unless they want to start fresh.
-
-The instructor may choose to require that GSIs operate in their own forks, if they wanted more control or to review changes more formally.
 
 
 ## Instructions for Course Staff
