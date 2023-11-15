@@ -48,8 +48,6 @@ The instructor may choose to require that GSIs operate in their own forks, if th
 
 ## Instructions for Department Staff
 
-These instructions have been tested under macOS.
-
 1. Create a github organization for the course if one does not already exist. It should be named `berkeley-statNNN` where `NNN` is the course number.
 
 1. Fork this `stat999-myst` repository template:
@@ -71,6 +69,8 @@ These instructions have been tested under macOS.
 1. Create a CNAME entry for the course in campus DNS if one does not already exist.
 
 ## Instructions for Course Staff
+
+These instructions have been tested under macOS.
 
 ### Edit the Content
 1. When department staff notify you that the class repository is ready, clone it into a local working directory on your computer. For the purposes of these instructions, we'll pretend your repository is at https://github.com/berkeley-stat555/fall-2024.
