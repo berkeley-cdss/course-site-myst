@@ -50,6 +50,18 @@ The instructor may choose to require that GSIs operate in their own forks, if th
 
 1. Create a github organization for the course if one does not already exist. It should be named `berkeley-statNNN` where `NNN` is the course number.
 
+1. If it was necessary to create a new github organization, create a course overview repository and website as well.
+
+   a. Instantiate the template at https://github.com/berkeley-scf/course-overview into the new organization.
+
+   a. Complete the course overview section and make other course-specific adjustments.
+
+   a. Create a .stat subdomain CNAME for statNNN.stat.berkeley.edu for the course in DNS if one does not already exist. See GitHub's [instructions](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#configuring-a-subdomain).
+
+   a. Add the CNAME to https://github.com/berkeley-statNNN/course-overview/settings/pages > Custom domain. This will add a `CNAME` file to the repository.
+
+   a. Request a top-level CNAME for statNNN.berkeley.edu pointing at statNNN.stat.berkeley.edu.
+
 1. Fork this `stat999-myst` repository template:
 
    a. Visit https://github.com/berkeley-scf/stat999-myst.
@@ -65,8 +77,6 @@ The instructor may choose to require that GSIs operate in their own forks, if th
    f. Click on **Create Repository**.
 
 1. Enable GitHub Pages in the repository. Go to Settings > Pages > Source > GitHub Actions (Beta). Because a github action is contained within the template, it will run when the template is instantiated and may fail until this step is completed.
-
-1. Create a CNAME entry for the course in campus DNS if one does not already exist.
 
 ## Instructions for Course Staff
 
