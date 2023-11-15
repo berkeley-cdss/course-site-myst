@@ -66,6 +66,7 @@ These instructions have been tested under macOS.
 1. Begin making changes relevant to your course.
    - Modify the site's metadata in `myst.yml`. Notable fields include the course title, description, author, and github URL. You can also edit links to external resources for your course, such as bCourses and Ed.
    - Modify the table of contents in `_toc.yml` to reflect the structure you want.
+   - Update `README.md` to remove all the instructions we provide (i.e., this text you are reading!).
    - Edit the other markdown files in the working directory and add new markdown or jupyter notebook files as desired.
    - Update `index.md` to reflect the material you want displayed in the main page.
    - You can make use of various MyST features discussed in the [MyST Guide](https://mystmd.org/guide).
