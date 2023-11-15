@@ -22,7 +22,8 @@ project:
 site:
   template: book-theme
   title: 'Stat 999'
-  logo: 'stat_bear.png'
+  options:
+    logo: 'stat_bear.png'
   nav: []
   actions:
     - title: Ed
