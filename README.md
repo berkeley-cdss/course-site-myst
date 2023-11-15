@@ -23,9 +23,31 @@ This repository contains a MyST-based template for class website. You can see a 
 
 ## Workflow Overview
 
-The anticipated workflow is that departmental staff will fork this template into a new repo resembling https://github.com/berkeley-stat555/fall-2024. The instructor (and course staff of their choosing) will be given permission to modify that repo. More advanced users may choose to fork that into their own GitHub account and make pull requests into the class repo.
+### Centralized Workflow
 
-For example, given the instructor with github handle `@paciorek`:
+The simplest workflow is where departmental staff fork this template or a previous semester's repo into a new one. The instructor (and course staff of their choosing) are given permission to make changes.
+
+For example, given the shared class repo https://github.com/berkeley-stat555/fall-2024 :
+
+```mermaid
+%% State diagram documentation at
+%% https://mermaid.js.org/syntax/stateDiagram.html
+
+stateDiagram-v2
+    repo_template: github.com/berkeley-scf/stat999-myst
+    repo_dept: github.com/berkeley-stat555/fall-2024
+    website_dept: stat555.berkeley.edu/fall-2024
+
+    repo_template --> repo_dept: Departmental staff fork template\nor previous term's repo.
+    repo_dept --> website_dept: Course staff directly push changes which go live.
+```
+
+### Fork and Pull Request Workflow
+
+Another method involves course staff forking the class repo into their own GitHub account. They would then make pull requests in the class repo, and following feedback, discussion, alterations, etc., authorized staff could merge the PRs.
+
+For example, given the instructor with github handle `@paciorek` and the shared class repo https://github.com/berkeley-stat555/fall-2024 :
+
 ```mermaid
 %% State diagram documentation at
 %% https://mermaid.js.org/syntax/stateDiagram.html
@@ -36,13 +58,13 @@ stateDiagram-v2
     repo_i: github.com/paciorek/stat555-fall-2024
     website_dept: stat555.berkeley.edu/fall-2024
 
-    repo_template --> repo_dept: Departmental staff forks template\nand gives access to course staff.
-    repo_dept --> repo_i: (Advanced) Instructor forks\ndepartment repo.
-    repo_i --> repo_dept: (Advanced) Instructor creates\nand merges a PR.
-    repo_dept --> website_dept: Changes are live on website.
+    repo_template --> repo_dept: Departmental staff fork template\nor previous term's repo.
+    repo_dept --> repo_i: Contributor forks\nclass repo.
+    repo_i --> repo_dept: Contributor creates a PR which\nis initiates a review.
+    repo_dept --> website_dept: Course repo admin merges,\nand changes go live.
 ```
 
-Eventually, instructors will choose to fork from the previous term's repo, e.g. github.com/berkeley-stat555/fall-2024, rather than the template, unless they want to start fresh.
+Eventually, instructors will choose to fork from the previous term's repo, e.g. github.com/berkeley-stat555/fall-2024, rather than this template, unless they want to start fresh.
 
 The instructor may choose to require that GSIs operate in their own forks, if they wanted more control or to review changes more formally.
 
