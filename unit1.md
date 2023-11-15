@@ -14,8 +14,8 @@ math:
   '\eps': '\epsilon'
 ---
 
-:::{warning}
-Code cells in Markdown documents are not yet actually executed when the page is built. It's possible that this MyST feature is still being implemented or buggy.
+:::{tip}
+Code cells on this Markdown page are not executed when the page is built.
 :::
 
 This is the mean of some random numbers using numpy.
