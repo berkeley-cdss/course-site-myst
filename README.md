@@ -42,7 +42,7 @@ stateDiagram-v2
     repo_dept --> website_dept: Changes are live on website.
 ```
 
-Theoretically, the instructor could ask the SCF to fork from the previous term's repo, e.g. github.com/berkeley-stat555/spring-2024, rather than the template.
+Eventually, instructors will choose to fork from the previous term's repo, e.g. github.com/berkeley-stat555/spring-2024, rather than the template, unless they want to start fresh.
 
 The instructor may choose to require that GSIs operate in their own forks, if they wanted more control or to review changes more formally.
 
