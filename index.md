@@ -53,9 +53,7 @@ subtitle: 'UC Berkeley, Spring 2024'
 
 # Schedule
 
-MyST doesn't give you the ability to have freestyle HTML with colors and styles.
-
-<div><p style="color: blue;">For example, this text should be blue, but it isn't.</p></div>
+% MyST does not yet give you the ability to have freestyle HTML with colors and styles. <span style="color: blue;">For example, this text should be blue, but it isn't.</span>
 
 The table below is rendered by the `schedule` plugin, contributed by [rowanc1](https://github.com/rowanc1). It is declared in `myst.yml` and contained within `schedule.mjs`. It reads in the data in `schedule.yml` and converts it into a table.
 
