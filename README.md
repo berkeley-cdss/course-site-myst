@@ -27,7 +27,7 @@ This repository contains a MyST-based template for class website. You can see a 
 
 The simplest workflow is where departmental staff fork this template or a previous semester's repo into a new one. The instructor (and course staff of their choosing) are given permission to make changes.
 
-For example, given the shared class repo https://github.com/berkeley-stat555/fall-2024 :
+For example, given the class repo https://github.com/berkeley-stat555/fall-2024 :
 
 ```mermaid
 %% State diagram documentation at
@@ -78,7 +78,7 @@ These instructions have been tested under macOS.
      git clone https://github.com/berkeley-stat555/fall-2024
      cd fall-2024
      ```
-   If you need to maintain several of these websites and there is a conflict in working directory names, you can just rename the working directory after cloning it, e.g. `mv fall-2024 stat555-fall-2025; cd stat555-fall-2024`.
+   If you need to maintain several of these websites and there is a conflict in working directory names, you can just rename the working directory after cloning it, e.g. `mv fall-2024 stat555-fall-2024; cd stat555-fall-2024`.
 
 
 1. Begin making changes relevant to your course.
@@ -143,7 +143,7 @@ If you want to preview the website locally on your own computer before they go l
    **Note:** Do not commit the files in `_build` to your repository. They will not be used when the website is deployed. Rather, an automated process via GitHub Actions will run and create the static build files.
 
 
-### Push Your Changes
+### Push Your Changes to Publish
 
 1. Push your changed to github:
    ```bash
@@ -151,7 +151,7 @@ If you want to preview the website locally on your own computer before they go l
    ```
    This will cause GitHub to rebuild your site.
 
-1.  You can observe the build process at github by clicking on the Actions button at the top of your repository, e.g. https://github.com/berkeley-stat555/fall-2024/actions. It usually takes a couple of minutes for this to complete. If there are no problems, your website will be publicly available at https://stat555.berkeley.edu/fall-2024.
+1.  You can observe the build process at GitHub by clicking on the Actions button at the top of your repository, e.g. https://github.com/berkeley-stat555/fall-2024/actions. It usually takes a couple of minutes for this to complete. If there are no problems, your website will be publicly available at https://stat555.berkeley.edu/fall-2024.
 
 
 The SCF is happy to help. Please [contact us](https://statistics.berkeley.edu/computing/how-get-help) if you are a Berkeley Statistics instructor and you run into problems or questions.
