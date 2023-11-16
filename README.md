@@ -187,5 +187,14 @@ The SCF is happy to help. Please [contact us](https://statistics.berkeley.edu/co
 
    f. Click on **Create Repository**.
 
+   g. Replace this README with the content shown below.
+
 1. Enable GitHub Pages in the repository. Go to Settings > Pages > Source > GitHub Actions (Beta). Because a github action is contained within the template, it will run when the template is instantiated and may fail until this step is completed.
 
+### README Content for Actual Class Repositories
+
+This is the repository for the course website and course material for Statistics 555 for Fall 2024. 
+The website for which this content is the source materials is available at
+`stat555.berkeley.edu/fall-2024`.
+
+For instructors: please see [these instructions](https://github.com/berkeley-scf/stat999-myst#instructions-for-course-staff) on how to use this repository.
