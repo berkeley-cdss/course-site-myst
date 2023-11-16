@@ -46,7 +46,7 @@ stateDiagram-v2
 
 Another method involves course staff forking the class repo into their own GitHub account. They would then make pull requests in the class repo, and following feedback, discussion, alterations, etc., authorized staff could merge the PRs. This gives the instructor or repo admin a bit more control over changes.
 
-For example, given the instructor with github handle `@paciorek` and the shared class repo https://github.com/berkeley-stat555/fall-2024 :
+For example, given the instructor with GitHub handle `@paciorek` and the shared class repo https://github.com/berkeley-stat555/fall-2024 :
 
 ```mermaid
 %% State diagram documentation at
@@ -82,7 +82,7 @@ These instructions have been tested under macOS.
 
 
 1. Begin making changes relevant to your course.
-   - Modify the site's metadata in `myst.yml`. Notable fields include the course title, description, author, and github URL. You can also edit links to external resources for your course, such as bCourses and Ed.
+   - Modify the site's metadata in `myst.yml`. Notable fields include the course title, description, author, and GitHub URL. You can also edit links to external resources for your course, such as bCourses and Ed.
    - Modify the table of contents in `_toc.yml` to reflect the structure you want.
    - Update `README.md` to remove all the instructions we provide (i.e., this text you are reading!).
    - Edit the other markdown files in the working directory and add new markdown or jupyter notebook files as desired.
@@ -104,7 +104,7 @@ These instructions have been tested under macOS.
    If you modify an existing file, you can either do `git add currentfile.md` or include the `-a` flag when you run `git commit` to automatically update files that Git is already keeping track of, e.g., after modifying unit 7 files, `git commit -am "Updated Unit 7"`.
 
 
-### Preview Changes
+### Preview Changes (Optional)
 
 If you want to preview the website locally on your own computer before they go live, follow these instructions. It is not strictly necessary, but we recommend doing so to spot errors. If you are confident that your changes will not break anything (for example for quick fixes), you can skip this section.
 
@@ -145,7 +145,7 @@ If you want to preview the website locally on your own computer before they go l
 
 ### Push Your Changes to Publish
 
-1. Push your changed to github:
+1. Push your changed to GitHub:
    ```bash
    git push
    ```
@@ -161,9 +161,9 @@ The SCF is happy to help. Please [contact us](https://statistics.berkeley.edu/co
 
 ## Instructions for Department Staff
 
-1. Create a github organization for the course if one does not already exist. It should be named `berkeley-statNNN` where `NNN` is the course number.
+1. Create a GitHub organization for the course if one does not already exist. It should be named `berkeley-statNNN` where `NNN` is the course number.
 
-1. If it was necessary to create a new github organization, create a course overview repository and website as well.
+1. If it was necessary to create a new GitHub organization, create a course overview repository and website as well.
 
    a. Instantiate the template at https://github.com/berkeley-scf/course-overview into the new organization.
 
@@ -191,12 +191,12 @@ The SCF is happy to help. Please [contact us](https://statistics.berkeley.edu/co
 
    g. Replace this README with the content shown in the next section.
 
-1. Enable GitHub Pages in the repository. Go to Settings > Pages > Source > GitHub Actions (Beta). Because a github action is contained within the template, it will run when the template is instantiated and may fail until this step is completed.
+1. Enable GitHub Pages in the repository. Go to Settings > Pages > Source > GitHub Actions (Beta). Because a GitHub action is contained within the template, it will run when the template is instantiated and may fail until this step is completed.
 
 ### README Content for Actual Class Repositories
 
 This is the repository for the course website and course material for Statistics 555 for Fall 2024. 
 The website for which this content is the source materials is available at
-`stat555.berkeley.edu/fall-2024`.
+<https://stat555.berkeley.edu/fall-2024>.
 
 For instructors: please see [these instructions](https://github.com/berkeley-scf/stat999-myst#instructions-for-course-staff) on how to use this repository.
