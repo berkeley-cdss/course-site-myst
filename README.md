@@ -151,7 +151,9 @@ If you want to preview the website locally on your own computer before they go l
    ```
    This will cause GitHub to rebuild your site.
 
-1.  You can observe the build process at GitHub by clicking on the Actions button at the top of your repository, e.g. https://github.com/berkeley-stat555/fall-2024/actions. It usually takes a couple of minutes for this to complete. If there are no problems, your website will be publicly available at https://stat555.berkeley.edu/fall-2024.
+1.  You can observe the build process at GitHub by clicking on the Actions button at the top of your repository, e.g. https://github.com/berkeley-stat555/fall-2024/actions. It usually takes a couple of minutes for this to complete. 
+
+2. If there are no problems, your website will be publicly available at https://stat555.berkeley.edu/fall-2024.
 
 
 The SCF is happy to help. Please [contact us](https://statistics.berkeley.edu/computing/how-get-help) if you are a Berkeley Statistics instructor and you run into problems or questions.
@@ -187,7 +189,7 @@ The SCF is happy to help. Please [contact us](https://statistics.berkeley.edu/co
 
    f. Click on **Create Repository**.
 
-   g. Replace this README with the content shown below.
+   g. Replace this README with the content shown in the next section.
 
 1. Enable GitHub Pages in the repository. Go to Settings > Pages > Source > GitHub Actions (Beta). Because a github action is contained within the template, it will run when the template is instantiated and may fail until this step is completed.
 
