@@ -6,26 +6,27 @@ title: "Syllabus"
 
 Jump to:
 
-- [About Data 100](#about-data-100)
+- [About Stat 999](#about-stat-999)
   - [Goals](#goals)
   - [Prerequisites](#prerequisites)
 
 
-(about-data-100)=
-# About Data 100
+(about-stat-999)=
+# About Stat 999
 
-Combining data, computation, and inferential thinking, data science is redefining how people and organizations solve challenging problems and understand their world. This intermediate level class bridges between Data 8 and upper division computer science and statistics courses as well as methods courses in other fields. In this class, we explore key areas of data science including question formulation, data collection and cleaning, visualization, statistical inference, predictive modeling, and decision making.​ Through a strong emphasis on data centric computing, quantitative critical thinking, and exploratory data analysis, this class covers key principles and techniques of data science. These include languages for transforming, querying and analyzing data; algorithms for machine learning methods including regression, classification and clustering; principles behind creating informative data visualizations; statistical concepts of measurement error and prediction; and techniques for scalable data processing.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur interdum dolor neque, non dignissim augue semper id. Ut aliquam turpis ultrices velit commodo posuere. Phasellus id lobortis urna. Vivamus non purus mollis, pellentesque ligula at, posuere justo. Pellentesque nibh dolor, venenatis non ex a, aliquam semper ligula. Nullam at magna sem. Aliquam ornare orci non consequat convallis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam libero lorem, tempus non laoreet ut, porttitor ac enim. Nunc viverra, purus vel vestibulum ultricies, ex eros pharetra ipsum, quis semper sapien elit eget dolor. Aenean id erat erat. Aenean id quam sit amet eros pellentesque volutpat ac vitae diam. Praesent lobortis tellus augue, nec dignissim mi vulputate non. Praesent ut venenatis est, ut lobortis felis. Vestibulum fermentum fermentum eros, quis molestie lacus.
+
+Sed nisi ante, gravida finibus faucibus eget, faucibus eu risus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam dictum, dolor id porttitor venenatis, elit leo tincidunt ipsum, id condimentum mauris nibh ut diam. Pellentesque ultricies ultrices pharetra. Morbi egestas est quis enim fermentum pulvinar quis eget enim. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In hac habitasse platea dictumst. Nunc pellentesque laoreet turpis, at sagittis magna congue at. In convallis porttitor fringilla. Donec ullamcorper fermentum bibendum. Proin a erat eget magna faucibus lacinia. Aenean ac nibh ante. Vestibulum viverra hendrerit ipsum vitae lobortis. Maecenas eget sem vitae est finibus bibendum. Nam euismod a risus sit amet interdum.
 
 (goals)=
 ## Goals
 
-
-- Prepare students for advanced Berkeley courses in data-management, machine learning, and statistics, by providing the necessary foundation and context.
-- Enable students to start careers as data scientists by providing experience working with real-world data, tools, and techniques.
-- Empower students to apply computational and inferential thinking to address real-world problems.
+- Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+- Mauris rutrum ligula nec gravida sollicitudin.
+- Phasellus sagittis justo sit amet odio consequat, ut viverra purus mattis.
 
 (prerequisites)=
 ## Prerequisites
 
-While we are working to make this class widely accessible, we currently require the following (or equivalent) prerequisites. **Prerequisites will be enforced in Data 100. It is your responsibility to know the material in the prerequisites.** 
+While we are working to make this class widely accessible, we currently require the following (or equivalent) prerequisites. **Prerequisites will be enforced in Stat 999. It is your responsibility to know the material in the prerequisites.** 
 
