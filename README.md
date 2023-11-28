@@ -111,11 +111,14 @@ If you want to preview the website locally on your own computer before they go l
 1. Install a Conda distribution, such as [Miniforge](https://github.com/conda-forge/miniforge) or [Anaconda](https://www.anaconda.com/download#downloads), if you don't already have one installed.
 
 
-1. Install software using conda/mamba. To preview the website on your own device you will need some command-line programs such as `nodejs` and [myst](https://mystmd.org/guide/quickstart). We have provided an `environment.yml` file to make this step simpler. Run the commands below to install all dependencies in a separate environment, and then activate it. This keeps your website development separate from any other projects you're working on.
+1. Install software using conda/mamba and npm. To preview the website on your own device you will need some command-line programs such as `nodejs` and [myst](https://mystmd.org/guide/quickstart). We have provided `environment.yml` and `packages.json` to make this step simpler. Run the commands below to install all dependencies in a separate environment, and then activate it. This keeps your website development separate from any other projects you're working on.
      ```bash
      # You can replace `mamba` with `conda`.
      mamba env create -f environment.yml
      
+     # Use `packages.json` to install JavaScript packages.
+     npm install
+
      # Now you can activate the environment.
      # You can use `mamba activate` or `conda activate`,
      # but these require that you have run `mamba init` or `conda init`,
