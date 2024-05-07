@@ -5,7 +5,7 @@ project:
   description: 'Test Class Website Based On Myst'
   keywords: []
   authors: ['Not Fernando Perez']
-  github: https://github.com/berkeley-scf/stat999-myst
+  github: https://github.com/berkeley-scf/course-site-myst
   # bibliography: []
   jupyter:
     lite: true
