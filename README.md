@@ -1,6 +1,6 @@
-# stat999-myst
+# course-site-myst
 
-This repository contains a MyST-based template for class website. You can see a preview of it at [https://berkeley-scf.github.io/stat999-myst](https://berkeley-scf.github.io/stat999-myst). This template is intended to be forked and altered for other courses.
+This repository contains a MyST-based template for class website. You can see a preview of it at [https://berkeley-scf.github.io/course-site-myst](https://berkeley-scf.github.io/course-site-myst). This template is intended to be forked and altered for other courses.
 
 ## Capabilities of this MyST-based Template
 
@@ -34,7 +34,7 @@ For example, given the class repo https://github.com/berkeley-stat555/fall-2024 
 %% https://mermaid.js.org/syntax/stateDiagram.html
 
 stateDiagram-v2
-    repo_template: github.com/berkeley-scf/stat999-myst
+    repo_template: github.com/berkeley-scf/course-site-myst
     repo_dept: github.com/berkeley-stat555/fall-2024
     website_dept: stat555.berkeley.edu/fall-2024
 
@@ -53,7 +53,7 @@ For example, given the instructor with GitHub handle `@paciorek` and the shared 
 %% https://mermaid.js.org/syntax/stateDiagram.html
 
 stateDiagram-v2
-    repo_template: github.com/berkeley-scf/stat999-myst 
+    repo_template: github.com/berkeley-scf/course-site-myst
     repo_dept: github.com/berkeley-stat555/fall-2024
     repo_i: github.com/paciorek/stat555-fall-2024
     website_dept: stat555.berkeley.edu/fall-2024
@@ -154,7 +154,7 @@ If you want to preview the website locally on your own computer before they go l
    ```
    This will cause GitHub to rebuild your site.
 
-1.  You can observe the build process at GitHub by clicking on the Actions button at the top of your repository, e.g. https://github.com/berkeley-stat555/fall-2024/actions. It usually takes a couple of minutes for this to complete. 
+1.  You can observe the build process at GitHub by clicking on the Actions button at the top of your repository, e.g. https://github.com/berkeley-stat555/fall-2024/actions. It usually takes a couple of minutes for this to complete.
 
 2. If there are no problems, your website will be publicly available at https://stat555.berkeley.edu/fall-2024.
 
@@ -178,9 +178,9 @@ The SCF is happy to help. Please [contact us](https://statistics.berkeley.edu/co
 
    a. Request a top-level CNAME for statNNN.berkeley.edu pointing at statNNN.stat.berkeley.edu.
 
-1. Fork this `stat999-myst` repository template:
+1. Fork this `course-site-myst` repository template:
 
-   a. Visit https://github.com/berkeley-scf/stat999-myst.
+   a. Visit https://github.com/berkeley-scf/course-site-myst.
 
    b. Above the file list click **Use this template** and then **Create a new repository**. This will then bring you to a screen where you'll configure the new repository.
 
@@ -198,8 +198,8 @@ The SCF is happy to help. Please [contact us](https://statistics.berkeley.edu/co
 
 ### README Content for Actual Class Repositories
 
-This is the repository for the course website and course material for Statistics 555 for Fall 2024. 
+This is the repository for the course website and course material for Statistics 555 for Fall 2024.
 The website for which this content is the source materials is available at
 <https://stat555.berkeley.edu/fall-2024>.
 
-For instructors: please see [these instructions](https://github.com/berkeley-scf/stat999-myst#instructions-for-course-staff) on how to use this repository.
+For instructors: please see [these instructions](https://github.com/berkeley-scf/course-site-myst#instructions-for-course-staff) on how to use this repository.
