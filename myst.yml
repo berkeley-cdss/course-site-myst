@@ -4,7 +4,10 @@ project:
   title: 'Stat 999'
   description: 'Test Class Website Based On Myst'
   keywords: []
-  authors: ['Not Fernando Perez']
+  authors: ['Instructor Name']
+  license:
+    # code: MIT
+    content: CC-BY-4.0
   github: https://github.com/berkeley-scf/course-site-myst
   # bibliography: []
   jupyter:
