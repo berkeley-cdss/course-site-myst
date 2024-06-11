@@ -18,34 +18,33 @@ subtitle: 'UC Berkeley, Spring 2024'
 ::::{grid} 1 2 2 2
 
 :::{card}
-:header: **Ferando Pérez**
-:footer: **Office Hours**: Tue 11-12pm (Evans 419)
+:header: **Instructor Name**
 
-```{list-table}
-:header-rows: 0
-:name: fernando
-* - ![Fernando Perez](images/fernando.jpg)
-  - <p><b>He/Him/His</b></p><p><a href="mailto:fernando.perez@berkeley.edu">fernando.perez@berkeley.edu</a></p><p>
-```
+![Instructor Name](images/firefly-instructor.jpg)
 
++++
+
+* **Office Hours**: Tue 11-12pm (Evans 4019)
+* **Pronouns**: She/Her
+* [instructor@berkeley.edu](mailto:instructor@berkeley.edu)
 :::
 
 :::{card}
-:header: **Narges Norouzi**
-:footer: **Office Hours**: MW 2-3pm (Evans 337)
+:header: **GSI Name**
 
-```{list-table}
-:header-rows: 0
-:name: narges
-* - ![narges Norouzi](images/narges.jpg)
-  - <p><b>She/Her/Hers</b></p> <p><a href="mailto:norouzi@berkeley.edu">norouzi@berkeley.edu</a></p>
-```
+![GSI Name](images/firefly-gsi.jpg)
+
++++
+
+* **Office Hours**: MW 2-3pm (Evans 3137)
+* **Pronouns**: She/Her
+* [gsi-name@berkeley.edu](mailto:gsi-name@berkeley.edu)
 
 :::
 
 ::::
 
-:::{attention} Welcome to [Week 2](#week2) of Data 100!
+:::{attention} Welcome to [Week 2](#week2) of Stat 999!
 :class: dropdown
 :icon: false
 👋
