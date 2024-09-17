@@ -1,7 +1,7 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
-  title: 'Stat 999'
+  title: 'Dept 999'
   description: 'Test Class Website Based On Myst'
   keywords: []
   authors: ['Instructor Name']
@@ -24,7 +24,7 @@ project:
     - schedule.mjs
 site:
   template: book-theme
-  title: 'Stat 999'
+  title: 'Dept 999'
   options:
     logo: 'stat_bear.png'
   nav: []

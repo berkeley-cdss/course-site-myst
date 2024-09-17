@@ -1,5 +1,5 @@
 ---
-title: 'Stat 999: Principles and Techniques of Data Science'
+title: 'Dept 999: Generic Description'
 subtitle: 'UC Berkeley, Spring 2024'
 ---
 
@@ -44,7 +44,7 @@ subtitle: 'UC Berkeley, Spring 2024'
 
 ::::
 
-:::{attention} Welcome to [Week 2](#week2) of Stat 999!
+:::{attention} Welcome to [Week 2](#week2) of Dept 999!
 :class: dropdown
 :icon: false
 👋

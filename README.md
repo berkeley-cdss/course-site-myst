@@ -159,7 +159,7 @@ If you want to preview the website locally on your own computer before they go l
 2. If there are no problems, your website will be publicly available at https://stat555.berkeley.edu/fall-2024.
 
 
-The SCF is happy to help. Please [contact us](https://statistics.berkeley.edu/computing/how-get-help) if you are a Berkeley Statistics instructor and you run into problems or questions.
+Staff are happy to help. Please [contact us](https://statistics.berkeley.edu/computing/how-get-help) if you are a Berkeley Statistics instructor and you run into problems or questions.
 
 
 ## Instructions for Department Staff
@@ -198,8 +198,8 @@ The SCF is happy to help. Please [contact us](https://statistics.berkeley.edu/co
 
 ### README Content for Actual Class Repositories
 
-This is the repository for the course website and course material for Statistics 555 for Fall 2024.
+This is the repository for the course website and course material for Department 555 for Fall 2024.
 The website for which this content is the source materials is available at
-<https://stat555.berkeley.edu/fall-2024>.
+<https://{ course hostname}/fall-2024>.
 
 For instructors: please see [these instructions](https://github.com/berkeley-cdss/course-site-myst#instructions-for-course-staff) on how to use this repository.
