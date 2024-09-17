@@ -8,7 +8,7 @@ project:
   license:
     # code: MIT
     content: CC-BY-4.0
-  github: https://github.com/berkeley-scf/course-site-myst
+  github: https://github.com/berkeley-cdss/course-site-myst
   # bibliography: []
   jupyter:
     lite: true
@@ -40,4 +40,4 @@ site:
     - title: Extenuating Circumstances
       url: https://forms.gle/pm7VYsDeCpaBMc9r6
   domains:
-    - berkeley-scf.github.io
+    - berkeley-cdss.github.io
