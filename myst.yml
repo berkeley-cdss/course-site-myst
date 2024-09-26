@@ -35,9 +35,5 @@ site:
       url: https://datahub.berkeley.edu
     - title: Gradescope
       url: https://www.gradescope.com/courses/564792
-    - title: Lectures Playlist
-      url: https://youtube.com/playlist?list=PLQCcNQgUcDfr24xMKf9uY3Nclj2gX0CQD&si=OopnvW3jasaYWx6W
-    - title: Extenuating Circumstances
-      url: https://forms.gle/pm7VYsDeCpaBMc9r6
   domains:
     - berkeley-cdss.github.io
