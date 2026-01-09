@@ -19,7 +19,7 @@
 - name: Instructor Name
   role: Instructor
   email: example@berkeley.edu
-  photo: images/firefly-instructor.jpg
+  photo: images/NO_PHOTO.svg
   office-hours:
     - when: Wednesday, 1pm - 2pm
       where: Online
@@ -30,7 +30,7 @@
 - name: GSI Name
   role: Teaching Assistant
   email: example@berkeley.edu
-  photo: images/firefly-gsi.jpg
+  photo: images/NO_PHOTON.svg
   office-hours:
     - when: Monday, 5pm - 6pm
       where: 367 Evans Hall
