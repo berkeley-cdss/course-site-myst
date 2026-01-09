@@ -30,7 +30,7 @@
 - name: GSI Name
   role: Teaching Assistant
   email: example@berkeley.edu
-  photo: images/NO_PHOTON.svg
+  photo: images/NO_PHOTO.svg
   office-hours:
     - when: Monday, 5pm - 6pm
       where: 367 Evans Hall
