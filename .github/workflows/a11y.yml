@@ -22,7 +22,7 @@ jobs:
         with:
           node-version: 22.x
       - name: Install MyST Markdown, Axe CLI, and HTTP Server
-        run: npm install -g mystmd  @axe-core/cli http-server
+        run: npm install -g mystmd  @axe-core/cli http-server wait-on
       - name: Install the plugins
         run: npm install
       - name: Build HTML Assets
