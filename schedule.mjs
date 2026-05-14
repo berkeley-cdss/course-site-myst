@@ -29,7 +29,7 @@ const classes = {
     padding: 5
   },
   participation: {
-    background: '#7A77B4',
+    background: '#504D80',
     borderRadius: 8,
     color: 'white',
     padding: 5
