@@ -1,5 +1,7 @@
 # course-site-myst
 
+![Accessibility Score](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/berkeley-cdss/course-site-myst/badges/a11y-badge.json)
+
 This repository contains a MyST-based template for class website. You can see a preview of it at [https://berkeley-cdss.github.io/course-site-myst](https://berkeley-cdss.github.io/course-site-myst). This template is intended to be forked and altered for other courses.
 
 ## Capabilities of this MyST-based Template

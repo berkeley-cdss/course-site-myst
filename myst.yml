@@ -29,6 +29,7 @@ project:
   - file: calendar.md
   - file: staff.md
   - file: data.md
+  - file: accessibility.md
   - file: unit1.md
   - file: unit2.ipynb
 site:
