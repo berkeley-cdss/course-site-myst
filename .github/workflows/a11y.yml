@@ -47,8 +47,7 @@ jobs:
           # D. Run Axe CLI on the discovered URLs
           axe $URLS \
             --tags wcag2a,wcag2aa,wcag21a,wcag21aa \
-            --save axe-report.json \
-            --exit
+            --save axe-report.json
       - name: Upload Accessibility Report
         if: always() 
         uses: actions/upload-artifact@v4
