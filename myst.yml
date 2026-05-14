@@ -26,7 +26,6 @@ project:
   toc:
   - file: index.md
   - file: syllabus.md
-  - file: calendar.md
   - file: staff.md
   - file: data.md
   - file: accessibility.md
