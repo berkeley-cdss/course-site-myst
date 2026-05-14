@@ -72,7 +72,7 @@ jobs:
             });
             
             const total = passes + violations;
-            const score = total === 0 ? 100 : Math.round((passes / total) * 100);
+            const score = violations === 0 ? 100 : Math.floor((passes / total) * 100);
             
             let color = 'red';
             if (score >= 95) color = 'success';
