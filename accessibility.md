@@ -2,7 +2,7 @@
 title: Accessibility
 ---
 
-![Accessibility Score](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/berkeley-cdss/course-site-myst/badges/a11y-badge.json)
+<img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/berkeley-cdss/course-site-myst/badges/a11y-badge.json" alt="Accessibility Score">
 
 As noted in the [MyST documentation](https://mystmd.org/guide/accessibility-and-performance), "The default MyST web themes aim to meet WCAG 2.1 AA, the level required of US public-sector and many private websites under ADA Title II."
 
