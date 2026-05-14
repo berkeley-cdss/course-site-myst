@@ -9,9 +9,10 @@ Welcome to Department 999, a comprehensive introduction to the fundamental conce
 
 The course meets twice weekly for lectures and once weekly for discussion sections. Additionally, there are regular laboratory sessions where you'll apply theoretical concepts to real-world problems. Guest speakers from industry and academia will provide insights into current applications and career opportunities. 
 
-:::{attention} There is a quiz in [Week 2](#week2)!
+:::{attention} There is a quiz in Week 2!
 :class: dropdown
 :icon: false
+Check out [Week 2](#week2) for more details.
 👋
 :::
 
