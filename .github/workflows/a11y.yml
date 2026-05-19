@@ -57,52 +57,11 @@ jobs:
           path: _build/html/axe-report.json
       - name: Calculate and Push Badge
         if: always()
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           # 1. Calculate the score and create the JSON file
-          node -e "
-            const fs = require('fs');
-            if (!fs.existsSync('_build/html/axe-report.json')) process.exit(0);
-            const data = JSON.parse(fs.readFileSync('_build/html/axe-report.json', 'utf8'));
-            
-            let violationsCount = 0;
-            let incompleteCount = 0;
-            
-            data.forEach(page => {
-              if (page.violations) violationsCount += page.violations.reduce((sum, rule) => sum + rule.nodes.length, 0);
-              if (page.incomplete) incompleteCount += page.incomplete.reduce((sum, rule) => sum + rule.nodes.length, 0);
-            });
-            
-            let color = 'success';
-            if (violationsCount > 0) color = 'red';
-            else if (incompleteCount > 0) color = 'yellow';
-            
-            let msg = [];
-            if (violationsCount > 0) msg.push(violationsCount + ' violations');
-            if (incompleteCount > 0) msg.push(incompleteCount + ' issues');
-            if (msg.length === 0) msg.push('passed');
-            
-            const badge = {
-              schemaVersion: 1,
-              label: 'a11y',
-              message: msg.join(', '),
-              color: color,
-              cacheSeconds: 60
-            };
-            
-            fs.writeFileSync('a11y-badge.json', JSON.stringify(badge, null, 2));
-          "
+          node .github/scripts/generate-badge.js
           
           # 2. Push to the orphaned 'badges' branch using Force Push
-          if [ -f a11y-badge.json ]; then
-            mkdir badge-repo && cd badge-repo
-            git init
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git checkout -b badges
-            
-            mv ../a11y-badge.json .
-            git add a11y-badge.json
-            git commit -m "Update a11y badge score"
-            
-            git push --force "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" badges
-          fi
+          bash .github/scripts/push-badge.sh
